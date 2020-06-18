@@ -1,0 +1,432 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Kalam&family=Devonshire&family=Itim&family=Kaushan+Script&family=Kurale&family=Nunito&family=Source+Serif+Pro&display=swap");
+.bgc-menu-1 {
+  background: #fcdfdb;
+}
+
+@font-face {
+    font-family: "PeacerfulDay";
+    src: url("fonts/PeacerfulDay.woff2") format("woff2"), url("fonts/PeacerfulDay.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+
+body
+{
+	margin: auto;
+	background-color: #FCFCFC;
+}
+
+.pagecontent
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#titre
+{
+    margin: auto;
+    margin-bottom: 1em;
+}
+#pagebodymenu1
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #FCDFDB;
+    border: black, 4em;
+    -webkit-box-shadow : 0 0 15px #B5B5B1;
+    -moz-box-shadow : 0 0 15px #B5B5B1;
+    box-shadow : 0 0 15px #B5B5B1;
+    width: 68%;
+    margin-bottom: 3em;
+    margin-bottom: 4em;
+    font-family: "Kalam", cursive;
+    color: #3D1319;
+}
+.font1
+{
+    font-size: 3em;
+    font-family: "Devonshire", cursive;
+    
+}
+.font1bas
+{
+    font-size: 2em;
+    font-family: "Devonshire", cursive;
+}
+
+ #pagebodymenu1 .prelude:hover:after {
+    transform: scaleX(1);
+  }
+  #pagebodymenu1 .prelude:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-bottom: solid 3px;
+    transform: scaleX(0);
+    transition: 0.5s;
+    transform-origin: 0% 50%;
+  }
+
+  
+#pagebodymenu2
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #FFF5FE;
+    border: black, 4em;
+    box-shadow : 0 0 15px #B5B5B1;
+    -moz-box-shadow : 0 0 15px #B5B5B1;
+    box-shadow : 0 0 15px #B5B5B1;
+    width: 68%;
+    margin-bottom: 3em;
+    margin-bottom: 4em;
+    font-family: "Source Serif Pro", serif;
+    
+}
+#pagebodymenu2 .memu2prelude1:hover:after {
+    transform: scaleX(1);
+  }
+  #pagebodymenu2 .memu2prelude1:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-bottom: 3px solid #C67412;
+    transform: scaleX(0);
+    transition: 0.5s;
+    transform-origin: 0% 50%;
+  }
+  #pagebodymenu2 .memu2prelude2:hover:after {
+    transform: scaleX(1);
+  }
+  #pagebodymenu2 .memu2prelude2:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-bottom: 3px solid #8F59FF;
+    transform: scaleX(0);
+    transition: 0.5s;
+    transform-origin: 0% 50%;
+  }
+  #pagebodymenu2 .memu2prelude3:hover:after {
+    transform: scaleX(1);
+  }
+  #pagebodymenu2 .memu2prelude3:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-bottom: 3px solid #6E4CCC;
+    transform: scaleX(0);
+    transition: 0.5s;
+    transform-origin: 0% 50%;
+  }
+.font2
+{
+    font-size: 2em;
+    /* Fallback: Set a background color. */
+    background-color: red;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(20deg, #C77412, #8F59FF);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+#pagebodymenu3
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #EDEFEF;
+    border: black, 4em;
+    -webkit-box-shadow : 0 0 15px #B5B5B1;
+    -moz-box-shadow : 0 0 15px #B5B5B1;
+    box-shadow : 0 0 15px #B5B5B1;
+    width: 68%;
+    margin-bottom: 3em;
+    margin-bottom: 4em;
+    font-family: "Kalam", cursive;
+}
+#pagebodymenu3 .prelude:hover:after {
+    transform: scaleX(1);
+  }
+  #pagebodymenu3 .prelude:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-bottom: solid 3px;
+    transform: scaleX(0);
+    transition: 0.5s;
+    transform-origin: 0% 50%;
+  }
+.font3
+{
+    /* Fallback: Set a background color. */
+    background-color: red;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(-80deg, #56a7e6 40% , #56a7e6 50%,#1570c7 10%);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: "Dancing Script", cursive;
+    font-size: 3em;
+}
+#pagebodymenu4
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #FDFFFD;
+    border: black, 4em;
+    -webkit-box-shadow : 0 0 15px #B5B5B1;
+    -moz-box-shadow : 0 0 15px #B5B5B1;
+    box-shadow : 0 0 15px #B5B5B1;
+    width: 68%;
+    margin-bottom: 3em;
+    margin-bottom: 4em;
+    font-family: "Kalam", cursive;
+}
+#pagebodymenu4 .prelude:hover:after {
+    transform: scaleX(1);
+  }
+  #pagebodymenu4 .prelude:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-bottom: solid 3px;
+    transform: scaleX(0);
+    transition: 0.5s;
+    transform-origin: 0% 50%;
+  }
+.font4
+{
+    /* Fallback: Set a background color. */
+    background-color: red;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(-80deg,#c8fa80 30% , #c8fa80 30%,#83B24E 40% );
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: "Dancing Script", cursive;
+    font-size: 3em;
+    font-family: "Kaushan Script", cursive;
+    font-size: 3em;
+}
+
+.deco
+{
+    width: 30%;
+}
+.titremenu
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.note 
+{
+    padding-left: 7em;
+    padding-right: 7em;
+}
+.notemini
+{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.soustitre
+{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.prelude
+{
+    font-size: 2em;
+    text-align: center;
+}
+.memu2prelude1
+{
+    font-size: 2em;
+    color: #C67412;
+    text-align: center;
+}
+.memu2prelude2
+{
+    font-size: 2em;
+    color: #A56799;
+    text-align: center;
+}
+.memu2prelude3
+{
+    font-size: 2em;
+    color: #6E4CCC;
+    text-align: center;
+}
+.listemenu
+{
+   width: 75%;
+   margin: auto;
+   margin-top: 2em;
+   margin-bottom: 3em;
+}
+.page2listemenu1
+{
+   width: 75%;
+   margin: auto;
+   margin-top: 2em;
+   margin-bottom: 3em;
+   color: #C67412 ;
+}
+.page2listemenu2
+{
+   width: 75%;
+   margin: auto;
+   margin-top: 2em;
+   margin-bottom: 3em;
+   color: #A56799;
+}
+.page2listemenu3
+{
+   width: 75%;
+   margin: auto;
+   margin-top: 2em;
+   margin-bottom: 3em;
+   color: #6E4CCC;
+}
+.basmenu1
+{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 5em;
+}
+.plat
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.entete
+{
+    background-color: #569C87;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 2em;
+}
+
+
+h1
+{
+    color: #FCCA46;
+}
+
+.pagebody
+{
+   
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  
+}
+a
+{
+    text-decoration: none;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 23px;
+    color: #FCCA46;
+    background-color: #569C87;
+    padding-left: 10px;
+    padding-right: 10px;
+    bottom: 0;
+    position: sticky;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.secousse
+{
+    color: #FCCA46;
+}
+.secousse
+{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.secousse:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+
+ 

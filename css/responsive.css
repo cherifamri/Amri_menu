@@ -1,0 +1,313 @@
+@media screen and (max-width: 320px)
+
+{
+   
+    
+    .couplemenue
+    {
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2em;
+    
+    }
+
+
+    .pagebody
+    {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+    }
+
+
+
+    .menu1
+{
+    display: flex;
+    justify-content: center;
+    width: 15em;
+    margin-bottom: 4em;
+    margin-right: 0;
+  
+}
+
+
+.menu2
+{
+    display: flex;
+    justify-content: center;
+    width: 15em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    margin-left: 0;
+}
+
+.menu3
+{
+    display: flex;
+    justify-content: center;
+    width: 15em;
+    margin-bottom: 4em;
+    margin-right: 0;
+}
+.menu4
+{
+    display: flex;
+    justify-content: center;
+    width: 15em;
+    margin-bottom: 2em;
+    margin-left: 0;
+}
+
+
+}
+@media screen and (max-width: 559px)
+
+{
+    #pagebodymenu1
+    {
+        width: 90%;
+    }
+    #pagebodymenu2
+    {
+        width: 90%;
+    }
+    #pagebodymenu3
+    {
+        width: 90%;
+    }
+    #pagebodymenu4
+    {
+        width: 90%;
+    }
+    .deco
+    {
+        width: 22%;
+    }
+    .prelude
+    {
+        text-align: center;
+    }
+    .memu2prelude1
+    {
+        text-align: center;
+    }
+    .memu2prelude2
+    {
+        text-align: center;
+    }
+    .memu2prelude3
+    {
+        text-align: center;
+    }
+    .font1
+    {
+        text-align: center;
+    }
+    .font2
+    {
+        text-align: center;
+    }
+    .font3
+    {
+        text-align: center;
+    }
+    .font4
+    {
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 559px)
+
+{
+   
+    
+    .couplemenue
+    {
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2em;
+        margin-left: 2em;
+    }
+
+
+    .pagebody
+    {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+    }
+
+
+    .menu1
+{
+    display: flex;
+    justify-content: center;
+    width: 15em;
+    margin-bottom: 4em;
+    margin-right: 0;
+  
+}
+
+
+.menu2
+{
+    display: flex;
+    justify-content: center;
+    width: 15em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    margin-left: 0;
+}
+
+.menu3
+{
+    display: flex;
+    justify-content: center;
+    width: 15em;
+    margin-bottom: 4em;
+    margin-right: 0;
+}
+.menu4
+{
+    display: flex;
+    justify-content: center;
+    width: 15em;
+    margin-bottom: 2em;
+    margin-left: 0;
+}
+
+
+}
+@media screen and (max-width: 559px)
+
+{
+    #pagebodymenu1
+    {
+        width: 90%;
+    }
+    #pagebodymenu2
+    {
+        width: 90%;
+    }
+    #pagebodymenu3
+    {
+        width: 90%;
+    }
+    #pagebodymenu4
+    {
+        width: 90%;
+    }
+    .deco
+    {
+        width: 22%;
+    }
+    .prelude
+    {
+        text-align: center;
+    }
+    .memu2prelude1
+    {
+        text-align: center;
+    }
+    .memu2prelude2
+    {
+        text-align: center;
+    }
+    .memu2prelude3
+    {
+        text-align: center;
+    }
+    .font1
+    {
+        text-align: center;
+    }
+    .font2
+    {
+        text-align: center;
+    }
+    .font3
+    {
+        text-align: center;
+    }
+    .font4
+    {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 1300px)
+
+{
+    #pagebodymenu1
+    {
+        width: 90%;
+    }
+    #pagebodymenu2
+    {
+        width: 90%;
+    }
+    #pagebodymenu3
+    {
+        width: 90%;
+    }
+    #pagebodymenu4
+    {
+        width: 90%;
+    }
+    .deco
+    {
+        width: 22%;
+    }
+    .prelude
+    {
+        text-align: center;
+    }
+    .memu2prelude1
+    {
+        text-align: center;
+    }
+    .memu2prelude2
+    {
+        text-align: center;
+    }
+    .memu2prelude3
+    {
+        text-align: center;
+    }
+    .font1
+    {
+        text-align: center;
+    }
+    .font2
+    {
+        text-align: center;
+    }
+    .font3
+    {
+        text-align: center;
+    }
+    .font4
+    {
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 1026px)
+
+{
+    .pagebody
+    {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+    }
+}
