@@ -311,3 +311,9 @@
         flex-direction: column;
     }
 }
+@media screen and (max-width: 1250px) {
+    #soon #soon__box {
+      width: auto;
+      margin-bottom: 100px;
+    }
+  }
