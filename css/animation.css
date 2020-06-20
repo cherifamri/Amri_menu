@@ -106,21 +106,6 @@
     color: #FCCA46;
 }
 
-footer
-{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    font-size: 23px;
-    color: #FCCA46;
-    background-color: #569C87;
-    padding-left: 10px;
-    padding-right: 10px;
-    bottom: 0;
-    position: sticky;
-    padding-top: 0;
-    padding-bottom: 0;
-}
 
 .secousse
 {
