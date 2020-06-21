@@ -45,7 +45,7 @@ h1
     display: flex;
     margin: auto;
     flex-direction: row;
-    min-height: 436px;
+    min-height: 445px;
 }
 
 .couplemenue
@@ -98,7 +98,7 @@ h1
 {
     text-align: center;
     color: #C67412;
-    padding-top: 20%;
+    padding-top: 27%;
 }
 
 
@@ -138,6 +138,7 @@ h1
 {
     text-align: center;
     color:#1776E9;
+    padding-top: 35px;
 }
 
 .font03
@@ -192,9 +193,9 @@ h1
 {
     text-align: center;
     color:#63B24E;
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-top: 29px;
 }
 .liencouple1
 {
