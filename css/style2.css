@@ -114,7 +114,7 @@ body
     width: 100%;
     height: 100%;
     display: block;
-    border-bottom: 3px solid #8F59FF;
+    border-bottom: 3px solid #A56799;
     transform: scaleX(0);
     transition: 0.5s;
     transform-origin: 0% 50%;
